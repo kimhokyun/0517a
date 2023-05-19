@@ -18,6 +18,7 @@
 		77C592DF2A150BAA00A4BCA7 /* _517aUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C592DE2A150BAA00A4BCA7 /* _517aUITestsLaunchTests.swift */; };
 		77C592EC2A1511FC00A4BCA7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C592EB2A1511FC00A4BCA7 /* Data.swift */; };
 		77C592EE2A151AB300A4BCA7 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C592ED2A151AB300A4BCA7 /* CustomTableViewCell.swift */; };
+		77C592F02A17A79200A4BCA7 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C592EF2A17A79200A4BCA7 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		77C592DE2A150BAA00A4BCA7 /* _517aUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _517aUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		77C592EB2A1511FC00A4BCA7 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		77C592ED2A151AB300A4BCA7 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = 0517a/CustomTableViewCell.swift; sourceTree = "<group>"; };
+		77C592EF2A17A79200A4BCA7 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				77C592BB2A150BA700A4BCA7 /* AppDelegate.swift */,
 				77C592BD2A150BA700A4BCA7 /* SceneDelegate.swift */,
 				77C592BF2A150BA700A4BCA7 /* ViewController.swift */,
+				77C592EF2A17A79200A4BCA7 /* ViewController2.swift */,
 				77C592C12A150BA700A4BCA7 /* Main.storyboard */,
 				77C592EB2A1511FC00A4BCA7 /* Data.swift */,
 				77C592C42A150BA900A4BCA7 /* Assets.xcassets */,
@@ -269,6 +272,7 @@
 				77C592BC2A150BA700A4BCA7 /* AppDelegate.swift in Sources */,
 				77C592BE2A150BA700A4BCA7 /* SceneDelegate.swift in Sources */,
 				77C592EC2A1511FC00A4BCA7 /* Data.swift in Sources */,
+				77C592F02A17A79200A4BCA7 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -40,7 +40,6 @@ class ViewController: UIViewController {
         sortingPickerView.dataSource = self
 
         fetchData()
-        applyPickerData()
     }
     
     func fetchData() {
@@ -107,6 +106,15 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
         cell.reviewLabel.text = "리뷰 : \(shop.review)"
         cell.adFlagImageView.isHidden = shop.adFlag == "Y" ? false : true
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let id = self.sortedData.shopList[indexPath.row].id
+        let vc = storyboard?.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
+        vc.id = id
+        self.navigationController?.pushViewController(vc, animated: true)
+        self.present(vc, animated: true)
+        
     }
 
 }
